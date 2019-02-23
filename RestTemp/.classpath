@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/rnaraboy/.m2/repository/org/springframework/spring-web/3.2.17.RELEASE/spring-web-3.2.17.RELEASE.jar" sourcepath="C:/Users/rnaraboy/.m2/repository/org/springframework/spring-web/3.2.17.RELEASE/spring-web-3.2.17.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rnaraboy/.m2/repository/org/springframework/spring-core/3.2.17.RELEASE/spring-core-3.2.17.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rnaraboy/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rnaraboy/.m2/repository/org/springframework/spring-beans/3.2.17.RELEASE/spring-beans-3.2.17.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rnaraboy/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rnaraboy/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rnaraboy/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rnaraboy/.m2/repository/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.8.4/jackson-jaxrs-json-provider-2.8.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rnaraboy/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.8.4/jackson-module-jaxb-annotations-2.8.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
