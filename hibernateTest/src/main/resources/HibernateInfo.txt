@@ -1,0 +1,30 @@
+The most common annotations, just for reference’s sake, are @Entity, @Id, and @Column; other common ones 
+we’ll encounter often are @GenerationStrategy (associated with @Id), and the association-related annotations like 
+@ManyToOne, @OneToMany, and @ManyToMany.
+
+
+If, instead, the annotation is applied to the accessor for the field, as shown in Listing 6-5, then property access 
+will be used. Property accessmeans that Hibernate will call the mutator instead of actually setting the field directly;
+this also means the mutator can alter the value as it’s being set, or change other states available in the object.
+Which one you choose depends on your preference and need;usually field access is enough.
+
+
+AUTO: Hibernate decides which generator type to use, based on the database’s support for primary key generation.
+
+IDENTITY: The database is responsible for determining and assigning the next primary key.
+
+SEQUENCE: Some databases support a SEQUENCE column type. See the “Generating Primary Key Values with 
+@SequenceGenerator” section later in the chapter.
+
+TABLE: This type keeps a separate table with the primary key values. See the “Generating Primary Key Values with
+ @TableGenerator” section later in the chapter.
+ 
+  Hibernate provides named generators for each of the four strategies in addition to others, such as “hilo,” “uuid,” 
+  and “guid.” If you need to use Hibernate-specific primary key generators, you risk forfeiting portability of your
+   application to other JPA 2 environments; that said, the Hibernate generators provide more flexibility and control.
+ 
+ we are going to use the AUTO key generation strategy. Letting Hibernate determine which generator type to use makes your code portable between
+  different databases.
+  
+  
+  @SequenceGenerator
